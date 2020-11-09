@@ -74,7 +74,7 @@ if '--help' in options or '--help-mathdom' in options:
 
     Current build config : lxml (%s), pyxml (%s), forced name (%s)
     """ % (REQUIRE_PACKAGES_FOR_BUILD,
-           HAS_LMATHDOM, HAS_MATHDOM, FORCED_PACKAGE_NAME)
+           HAS_LMATHDOM, HAS_MATHDOM, FORCED_PACKAGE_NAME)"""
     try:
         sys.argv.remove('--help-mathdom')
         sys.exit(0)
